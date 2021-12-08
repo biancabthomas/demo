@@ -1,0 +1,152 @@
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 19px 0;
+  transition: all 0.2s ease;
+
+}
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -1px;
+  display: block;
+  border-radius: 28px;
+  background: rgba(74, 21, 37, 0.7);
+  width: 36px;
+  height: 36px;
+  transition: all 0.3s ease;
+}
+.cta span {
+  position: relative;
+  vertical-align: middle;
+}
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 3px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #a94025;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.cta:hover:before {
+  width: 100%;
+  background: #4A1525;
+}
+.cta:hover svg {
+  transform: translateX(0);
+}
+.cta:active {
+  transform: scale(0.96);
+}
+
+.cta01 {
+  position: relative;
+  padding: 19px 0;
+  margin-top: 0;
+  margin-left: 0;
+  transition: all 0.2s ease;
+
+}
+.cta01:before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: -1px;
+  display: block;
+  border-radius: 28px;
+  background: rgba(187, 126, 68, 0.7);
+  width: 36px;
+  height: 36px;
+  transition: all 0.3s ease;
+}
+.cta01 span {
+  position: relative;
+  vertical-align: middle;
+  color: #a94025;
+  font-family: 'Rubik',sans-serif!important;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.cta01 svg {
+  position: relative;
+  top: 0;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #a94025;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.cta01:hover:before {
+  width: 100%;
+  background: #BB7E44;
+}
+.cta01:hover svg {
+  transform: translateX(0);
+}
+.cta01:active {
+  transform: scale(0.96);
+}
+
+.container-contact2-form-btn {
+  text-align: center;
+}
+
+.cta02 {
+  position: relative;
+  margin: auto;
+  margin-top: 30px;
+  padding: 19px 0;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+
+}
+.cta02:before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: -1px;
+  display: block;
+  border-radius: 28px;
+  background: rgba(187, 126, 68, 0.7);
+  width: 36px;
+  height: 36px;
+  transition: all 0.3s ease;
+}
+.cta02 span {
+  position: relative;
+  vertical-align: middle;
+  color: #a94025;
+  font-family: 'Rubik',sans-serif!important;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.cta02 svg {
+  position: relative;
+  top: 0;
+  margin-left: 3px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #a94025;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.cta02:hover:before {
+  width: 100%;
+  background: #BB7E44;
+}
+.cta02:hover svg {
+  transform: translateX(0);
+}
+.cta02:active {
+  transform: scale(0.96);
+}
